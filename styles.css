@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #F5DFBB;
+}
+
+/*************FOOTER SECTION************/
+#footer {
+    background-color: #562C2C;
+    padding: 10px;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*************HEADER SECTION************/
+
+#header {
+    background-color: #562C2C;
+    padding: 12px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name {
+    font-size: large;
+    font-weight: bolder;
+    color: #b75d39;
+}
+
+.header-links {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.header-contact {
+    background-color: #F2542D;
+    color: #333333;
+    padding: 4px 8px 4px 6px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#intro-section {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: #b75d39;
+}
+
+#intro-section img {
+    width: 50%;
+}
+
+/*************INDEX ABOUT SECTION************/
+
+#about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c1f1f;
+    padding: 20%;
+}
+
+.info-section {
+    font-size: 1.3vw;
+    padding-right: 5%;
+}
+
+#info-aside {
+    width: 230px;
+    height: 300px;
+    color: #333333;
+    background-color: #F5DFBB;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#resume-middle>#info-aside {
+    position: sticky;
+    top: 0;
+}
+
+#info-aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-info div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.contact-info div a {
+    text-decoration: none;
+    color: #F2542D;
+}
+
+/*************RESUME SECTION************/
+
+#resume-middle {
+    background-color: #3c1f1f;
+    margin: 0;
+    display: flex;
+}
+
+.resume-item {
+    background-color: #562C2C;
+    padding: 15px;
+    margin: 10px;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+
+.resume-item h2 {
+    color: #0E9594;
+}
+
+.resume-item a {
+    text-decoration: none;
+    color: #F2542D;
+}
+
+#academic-projects div {
+    display: flex;
+    align-items: center;
+}
+
+#academic-projects div img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.resume {
+    color: #F2542D;
+    background-color: #3c1f1f;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#resume-nav {
+    height: 300px;
+    width: 230px;
+    background-color: #F5DFBB;
+    border-radius: 10px;
+    color: #333333;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    margin: 10px;
+}
+
+#resume-nav a {
+    text-decoration: none;
+    color: #F2542D;
+}
+
+#resume-nav nav,
+#resume-nav div {
+    padding-top: 10px;
+}
+
+
+/*************COURSES SECTION************/
+#courses-middle {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3c1f1f;
+}
+
+#course-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+}
+
+.course-header {
+    font-size: 3vw;
+    color: #F2542D;
+}
+
+.course {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #562C2C;
+    padding: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+
+.program-level {
+    background-color: #a05353;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.program-level+div {
+    background-color: #a05353;
+    border-radius: 10px;
+}
+
+.course img {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+
+.course-info {
+    background-color: #794040;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.course-info div {
+    color: #0E9594;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#filter-aside {
+    margin: 25px;
+    margin-right: 13%;
+    padding: 12px;
+    height: 88px;
+    background-color: #F5DFBB;
+    color: #333333;
+    border-radius: 10px;
+    font-size: 1vw;
+}
+
+#filter-aside button{
+    border-radius: 3px;
+    background-color: #333333;
+    color: #F5DFBB;
+}
+
+#filter-aside button:hover{
+    border-radius: 3px;
+    background-color: #b75d39;
+    color: #333333;
+}
+
